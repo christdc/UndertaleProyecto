@@ -3,7 +3,11 @@ div{
 }
 .nav-link{
     color: var(--primary);
-    margin: 0 5%;
+}
+.nav-link:hover{
+    transition: margin-left 1s, color 1s;
+    margin-left: 2%;
+    color: var(--background);
 }
 nav{
     background-color: var(--accent);

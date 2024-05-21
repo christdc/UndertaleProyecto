@@ -15,7 +15,7 @@ header img{
 .soul{
     width: 5%;
     position: fixed;
-    right: 48%;
+    right: 47.5%;
 }
 .soul:nth-child(7){
     animation: desplazarse 4s, orbit 7s infinite 4s linear;
@@ -63,4 +63,10 @@ nav{
 .link:hover{
     transition: text-shadow 1s;
     text-shadow: 3px 3px 0px var(--rojo), -3px -3px 0px var(--rojo);
+    animation: levitar 3s infinite ease-in-out;
+}
+@keyframes levitar{
+    0% { transform: translateY(0px); }
+    50%  { transform: translateY(15px); }
+    100%   { transform: translateY(0px); }    
 }
