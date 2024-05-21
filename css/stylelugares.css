@@ -1,0 +1,38 @@
+.principal{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.pared{
+    grid-column: 2/10;
+    padding: 10%;
+    border-radius: 30% 30% 0px 0px;
+}
+.suelo{
+    grid-column: 1/11;
+    height: 100px;
+    clip-path: polygon(10% 0%, 90% 0%, 95% 100%, 5% 100%); 
+    margin-bottom: 10%;  
+}
+
+.pared:nth-child(1){
+    background: linear-gradient(180deg, var(--accent) 99.5%, var(--text) 0.5%);
+}
+.suelo:nth-child(2){
+    background-color: var(--accent);
+}
+
+.pared:nth-child(4){
+    background: linear-gradient(180deg, var(--rojo) 99.5%, var(--text) 0.5%);
+}
+.suelo:nth-child(5){
+    background-color: var(--rojo);
+}
+
+.pared:nth-child(6){
+    background: linear-gradient(180deg, var(--accent) 99.5%, var(--text) 0.5%);
+}
+.suelo:nth-child(7){
+    background-color: var(--accent);
+}

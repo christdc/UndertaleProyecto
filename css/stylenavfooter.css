@@ -1,0 +1,10 @@
+div{
+    font-size: 120%;
+}
+.nav-link{
+    color: var(--primary);
+    margin: 0 5%;
+}
+nav{
+    background-color: var(--accent);
+}
