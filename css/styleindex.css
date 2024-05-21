@@ -1,5 +1,8 @@
+audio{
+    display: none;
+}
 header{
-    display: block;
+    display: none;
     text-align: center;
     margin: 3% 0% 15% 0%;
 }
@@ -13,6 +16,7 @@ header img{
     text-align: center;
 }
 .soul{
+    display: none;
     width: 5%;
     position: fixed;
     right: 47.5%;
@@ -49,7 +53,8 @@ header img{
 }
 
 
-nav{
+.nav{
+    display: none;
     width: 21vw;
     margin: auto;
     text-align: center;
