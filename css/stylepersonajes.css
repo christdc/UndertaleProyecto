@@ -59,3 +59,7 @@ article:nth-child(2){
 img:first-child{
     width: 10%;
 }
+
+#savePoint{
+    width: 10%;
+}

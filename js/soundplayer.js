@@ -7,7 +7,7 @@ var nav = document.getElementsByClassName("nav")
 setTimeout(function(){
     header.style.display="block"
     sonido.play()
-}, 500)
+}, 1000)
 
 setTimeout(function(){
     for (let i = 0; i < nav.length; i++) {
@@ -15,7 +15,7 @@ setTimeout(function(){
      }
      sonido.play()
     
-}, 4000)
+}, 4300)
 
 setTimeout(function(){
     for (let i = 0; i < corazones.length; i++) {

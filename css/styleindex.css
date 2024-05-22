@@ -68,10 +68,14 @@ header img{
 .link:hover{
     transition: text-shadow 1s;
     text-shadow: 3px 3px 0px var(--rojo), -3px -3px 0px var(--rojo);
-    animation: levitar 3s infinite ease-in-out;
+   
+}
+.carousel-item:hover{
+    animation: levitar 5s infinite linear;
 }
 @keyframes levitar{
-    0% { transform: translateY(0px); }
-    50%  { transform: translateY(15px); }
-    100%   { transform: translateY(0px); }    
+    0%{transform: translateY(0vh);}
+    33%{transform: translateY(1vh);}
+    66%{transform: translateY(-1vh);}
+    100%{transform: translateY(0vh);}
 }
