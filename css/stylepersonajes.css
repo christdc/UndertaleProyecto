@@ -1,0 +1,54 @@
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    margin: 5% 0;
+    color: var(--rojo);
+    text-align: center;
+    font-size: 4em;
+    animation: levitar 3s infinite linear;
+    transition: text-shadow 2s;
+}
+h1:hover{
+    transition: text-shadow 2s;
+    text-shadow: 2px 2px 0px var(--rojoOscuro), -2px -2px 0px var(--rojoOscuro);
+}
+@keyframes levitar{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(1vh);}
+    100%{transform: translateY(0);}
+}
+
+
+h2{
+    color: var(--accent);
+    text-align: center;
+    text-shadow: 1px 1px 0px var(--primary);
+    font-size: 2.5em;
+}
+
+
+p{
+    color: var(--text);
+    width: 30%;
+    margin: 0 10%;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+
+section{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
