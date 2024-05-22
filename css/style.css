@@ -29,6 +29,7 @@ body{
 }
 .nav-link{
     color: var(--primary);
+    transition: margin-left 1s, color 1s;
 }
 .nav-link:hover{
     transition: margin-left 1s, color 1s;
