@@ -16,7 +16,6 @@
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
-
 .pared{
     grid-column: 2/10;
     padding: 10%;
@@ -52,3 +51,4 @@
 .suelo:nth-child(6){
     background-color: var(--blancoAzulado);
 }
+

@@ -87,3 +87,8 @@ i:hover{
     transform: rotate(360deg);
     color: var(--accent);
 }
+h4{
+    margin: 0 10% 10% 10%;
+    color: var(--text);
+    opacity: 0.4;
+}
