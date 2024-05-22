@@ -4,25 +4,6 @@ img{
     margin: auto;
 }
 
-h1{
-    margin: 5% 0;
-    color: var(--rojo);
-    text-align: center;
-    font-size: 4em;
-    animation: levitar 3s infinite linear;
-    transition: text-shadow 2s;
-}
-h1:hover{
-    transition: text-shadow 2s;
-    text-shadow: 2px 2px 0px var(--rojoOscuro), -2px -2px 0px var(--rojoOscuro);
-}
-@keyframes levitar{
-    0%{transform: translateY(0);}
-    50%{transform: translateY(1vh);}
-    100%{transform: translateY(0);}
-}
-
-
 h2{
     color: var(--accent);
     text-align: center;
@@ -71,7 +52,9 @@ article:nth-child(2){
     width: 10%;
     margin: 5% 0;
 }
-
+#pulsar{
+    color: var(--text);
+}
 
 .star-rating{
     display: flex;
