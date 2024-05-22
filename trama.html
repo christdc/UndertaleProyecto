@@ -11,12 +11,14 @@
         <script src="https://kit.fontawesome.com/7115f6f010.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/styletrama.css">
-        <link rel="stylesheet" href="./css/stylenavfooter.css">
     </head>
     <body>
       <img class="timmie" src="./img/timmie.gif" alt="timmie">
       <audio loop autoplay>
         <source src="./audio/Undertale OST_ 093 - Menu (Full).mp3">
+      </audio>
+      <audio id="audio">
+        <source src="./audio/save point.mp3">
       </audio>
 
         <nav class="navbar navbar-expand-lg">
@@ -58,7 +60,7 @@
             </section>
 
             <img id="botonf" src="./img/fight.png" alt="fight">
-            <img id="botonm" src="./img/mercy.png" alt="mercy">
+            <img onclick="play()" id="botonm" src="./img/mercy.png" alt="mercy">
 
 
             <img id="intro" src="./img/amigos.png" alt="intro">
