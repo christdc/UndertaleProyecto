@@ -13,3 +13,16 @@ p{
     color: var(--text);
     font-size: 1.5em;
 }
+
+#botonf, #botonm{
+    width: 10%;
+    display: block;
+    margin: 10% auto;
+}
+
+
+#intro{
+    display: block;
+    margin: auto;
+    width: 60vw;
+}

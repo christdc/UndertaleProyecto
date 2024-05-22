@@ -22,7 +22,7 @@
 }
 body{
     background-color: var(--background);
-    cursor: url("../img/cursor.png"), auto;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAAAXNSR0IArs4c6QAAAWZJREFUOE9jZMAE/xkYGBixiGMVgikEaWKoXrCeoSU+gOHm83cMGlLCICGCBoEUGO48f/OcvLgIw99//xnYWJgZVMQFYIZsYmBg8MfnGpAB/288e8ugLimEog7qCqJcgNUARkawXqIMACn8L6+pwxBX1caQ5+/CIMLLyUCqATDnw10D9UIGAwPDTEJhgC4PN4QYV2D1Y9vK7f8rwzxgMbGNgYHBG5crcAUS0a7AGcrVC9b9b4kPZLjz6j2Dqjg4irGqxRdNRLkCbzyzsLH9//3zJ9j7uAKUUEJBj1YM9YQMYOAXFv3/9vVLBmZGRqyuIGgAcl5ByqXwQCXGAIbU1gn/6zKSGGSEeMFpA5TxYJmNGAP+1y7exJDobsegKMqPkp5AAUvQgNrFm/5HO1tjZHdYzBA0ADkMQMXWon2nGOKdzGBR20SMAQwwVyzde5ShOdYP2RuQUoMIAPL8BwYGhmcMDAzSyOoB7NF+lumuG0YAAAAASUVORK5CYII=),auto;
 }
 
 :-moz-selection{
@@ -51,6 +51,18 @@ body{
     100%{transform: translateY(0);}
 }
 
+
+.timmie{
+    width: 7vw;
+    margin: 0 2%;
+    position: absolute;
+    animation: aparecer 10s infinite;
+}
+@keyframes aparecer{
+    0%{transform: scaleY(-1) translateY(10vh);}
+    50%{transform: scaleY(-1) translateY(-3vh);}
+    100%{transform: scaleY(-1) translateY(10vh);}
+}
 
 .container-fluid{
     font-size: 150%;
