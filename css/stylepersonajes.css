@@ -31,21 +31,19 @@ h2{
 }
 
 
-p{
-    color: var(--text);
-    width: 30%;
-    margin: 0 10%;
-    text-align: justify;
-    font-size: 1.3em;
-}
-
-
 section{
     width: 90%;
     margin: 5% auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+p{
+    color: var(--text);
+    width: 30%;
+    margin: 0 10%;
+    text-align: justify;
+    font-size: 1.3em;
 }
 article:nth-child(2){
     display: flex;
@@ -55,9 +53,15 @@ article:nth-child(2){
 
 #sec{
     margin: 5% auto;
+    width: fit-content;
 }
-img:first-child{
-    width: 10%;
+#cambio{
+    width: 20%;
+}
+#artFrisk{
+    border: 10px solid var(--text);
+    width: 60%;
+    padding: 5%;
 }
 
 #asgore{
@@ -65,4 +69,21 @@ img:first-child{
 }
 #savePoint{
     width: 10%;
+    margin: 5% 0;
+}
+
+
+.star-rating{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    transition: all 800ms ease-in-out;
+    color: var(--text);
+    margin: 5% 0;
+    font-size: 5em;
+}
+i:hover{
+    transform: rotate(360deg);
+    color: var(--accent);
 }

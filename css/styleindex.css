@@ -1,6 +1,3 @@
-audio{
-    display: none;
-}
 header{
     display: none;
     text-align: center;
@@ -42,7 +39,6 @@ header img{
 .soul:nth-child(1){
     animation: desplazarse 10s, orbit 7s infinite 10s linear;
 }
-
 @keyframes desplazarse{
     0%{transform: translateX(-100vw);}
     100%{transform: translateX(13vw);}
@@ -78,4 +74,13 @@ header img{
     33%{transform: translateY(1vh);}
     66%{transform: translateY(-1vh);}
     100%{transform: translateY(0vh);}
+}
+
+#fixed{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    color: var(--text);
+    opacity: 0.5;
+
 }
