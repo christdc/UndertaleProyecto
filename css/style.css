@@ -79,3 +79,12 @@ body{
 .navbar{
     background-color: var(--accent);
 }
+
+@media only screen and (max-width:800px) {
+
+    @keyframes aparecer{
+        0%{transform: scaleY(-1) translateY(10vh);}
+        50%{transform: scaleY(-1) translateY(-6vh);}
+        100%{transform: scaleY(-1) translateY(10vh);}
+    }
+}

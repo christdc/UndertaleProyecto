@@ -109,4 +109,9 @@ h4{
         width: 20%;
     }
 
+    p{
+        text-align: start;
+        font-size: 0.8em;
+    }
+
 }
