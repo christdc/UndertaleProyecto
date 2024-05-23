@@ -46,6 +46,11 @@ input, textarea{
     width: 50%;
     border-radius: 5px;
 }
+.img{
+    display: block;
+    width: 1%;
+    margin: 5% auto;
+}
 
 @media only screen and (max-width:1000px) {
 
