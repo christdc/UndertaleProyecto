@@ -47,5 +47,27 @@ input, textarea{
     border-radius: 5px;
 }
 
+@media only screen and (max-width:1000px) {
 
+    button{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:800px) {
 
+    label{
+        font-size: 1.3em;
+    }
+    button{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width:600px) {
+
+    label{
+        font-size: 0.9em;
+    }
+    button{
+        font-size: 0.9em;
+    }
+}
