@@ -28,7 +28,7 @@ form label{
     margin-top: 5%;
     font-size: 1.5em;
 }
-button{
+form button{
     background-color: var(--accent);
     color: var(--primary);
     font-size: 2em;
@@ -38,7 +38,7 @@ button{
     margin: 2% 0;
     transition: box-shadow 2s;
 }
-button:hover{
+form button:hover{
     transition: box-shadow 2s;
     box-shadow: 5px 5px 0px var(--primary);
 }
@@ -63,7 +63,7 @@ input, textarea{
     label{
         font-size: 0.9em;
     }
-    button{
+    form button{
         font-size: 0.9em;
     }
 }
