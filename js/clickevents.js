@@ -23,7 +23,6 @@ fight.addEventListener("click", function () {
 
 
 var audio = document.getElementById("audio");
-var mercy = document.getElementById("botonm");
 function play(){
     audio.play()
 }

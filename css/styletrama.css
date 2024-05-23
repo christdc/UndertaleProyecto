@@ -17,9 +17,14 @@ p{
 #botonf, #botonm{
     width: 10%;
     display: block;
-    margin: 10% auto;
+    margin: 5% auto;
 }
 
+h6{
+    margin: 0 10%;
+    color: var(--text);
+    opacity: 0.5;
+}
 
 #intro{
     display: block;

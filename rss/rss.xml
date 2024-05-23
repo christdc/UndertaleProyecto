@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+
+    <channel>
+      <title>cristipr0</title>
+      <link>https://cristipr0.s3.amazonaws.com/lugares.html</link>
+      <description>La descripción más pr0</description>
+	  
+		  <atom:link rel="self" type="application/rss+xml" href="https://cristipr0.s3.amazonaws.com/rss/rss.xml"/>
+      <image>
+        <url>https://https://cristipr0.s3.amazonaws.com/favicon.ico</url>
+        <title>cristipr0AWS - News - IMG</title>
+        <link>https://cristipr0.s3.amazonaws.com/lugares.html</link>
+        <width>144</width>
+        <height>24</height>
+      </image>
+
+	  <item>
+        <title>Noticia pr0 1</title>
+        <link>https://www.tiktok.com/discover/noticias-potaxies?lang=es</link>
+        <guid>https://www.tiktok.com/discover/noticias-potaxies?lang=es#3</guid>
+        <pubDate>Sat, 4 May 2024 14:24:00 GMT</pubDate>
+        <description>Descripción pr0 del primer pr0 artículo pr0</description>
+      </item>
+      <item>
+        <title>Noticia pr0 2</title>
+        <link>https://www.infolibre.es/opinion/columnas/escribir-no-es-normal/potaxies-fifes-guerra-12m_129_1783665.html</link>
+        <guid>https://www.infolibre.es/opinion/columnas/escribir-no-es-normal/potaxies-fifes-guerra-12m_129_1783665.html#4</guid>
+        <pubDate>Mon, 18 Apr 2024 12:15:12 GMT</pubDate>
+        <description>Descripción pr0 del segundo pr0 artículo pr0</description>
+      </item>
+  </channel>
+</rss>
+
+

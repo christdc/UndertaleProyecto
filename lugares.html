@@ -11,7 +11,10 @@
         <script src="https://kit.fontawesome.com/7115f6f010.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/stylelugares.css">
-    </head>
+    
+        <link href="https://cristipr0.s3.amazonaws.com/rss/rss.xml" rel="alternate" type="application/rss+xml" title="cristipr0.com RSS" />
+
+      </head>
     <body>
       <img class="timmie" src="./img/timmie.gif" alt="timmie">
       
@@ -136,7 +139,27 @@
             </div>
           </main>
 
+          <form id="contact-form">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" id="apellidos" name="apellidos" required>
+    
+            <label for="comentarios">¿Cuál es tu parte favorita del juego?:</label>
+            <textarea id="comentarios" name="comentarios" required></textarea>
+    
+            <label for="fecha">Fecha: </label>
+            <input type="date" id="fecha" name="fecha" required>
+    
+            <button type="button" onclick="enviar()" value="Enviar">ENVIAR</button>
+        </form>
+
+        <a href="https://cristipr0.s3.amazonaws.com/rss/rss.xml"><img src="./img/icon.png"></a>
+
+
           <img id="perrete" src="./img/annoying-dog-undertale.gif" alt="perrete">
+          <script src="./js/enviarmail.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
